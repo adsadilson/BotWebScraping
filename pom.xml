@@ -5,8 +5,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.1.1</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>2.6.0</version>
+		<relativePath/>
 	</parent>
 	<groupId>br.com.apssystem</groupId>
 	<artifactId>brasileirao-api</artifactId>
@@ -14,7 +14,7 @@
 	<name>brasileirao-api</name>
 	<description>Criação de bot web scraping</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
