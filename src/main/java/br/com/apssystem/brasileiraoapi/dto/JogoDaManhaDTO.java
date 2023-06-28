@@ -11,21 +11,14 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class PartidaGoogleDTO implements Serializable {
+public class JogoDaManhaDTO implements Serializable {
 
     private String id;
-    private String statusPartida;
     private String horaPartida;
     private String nomeEquipeCasa;
     private String urlLogoEquipeCasa;
-    private String placarEquipeCasa;
-    private String golsEquipeCasa;
-    private String placarEstendidoEquipeCasa;
     private String dataPartida;
-
     private String nomeEquipeVisitante;
     private String urlLogoEquipeVisitante;
-    private String placarEquipeVisitante;
-    private String golsEquipeVisitante;
-    private String placarEstendidoEquipeVisitante;
+
 }
